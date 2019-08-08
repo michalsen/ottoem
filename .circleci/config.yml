@@ -47,6 +47,10 @@ jobs:
         steps:
             - checkout
 
+            - add_ssh_keys:
+                fingerprints:
+                  - "ea:5c:2f:8b:19:d8:e4:3d:8f:97:45:84:77:88:29:0f"
+
             - run:
                 # Set TERMINUS_ENV and related environment variables.
                 # https://github.com/pantheon-systems/docker-build-tools-ci/blob/5.x/scripts/set-environment

@@ -1,0 +1,4 @@
+name: ottoem
+recipe: drupal8
+config:
+  webroot: web
