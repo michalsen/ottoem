@@ -7,19 +7,6 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "em/d8theme",
-                "version": "1.0",
-                "type": "drupal-theme",
-                "source": {
-                    "url": "https://github.com/michalsen/d8theme.git",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
         }
     ],
     "require": {
